@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="50sp"
+            android:background="#ffc4c4c4" >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton9"
+                android:src="@drawable/ic_launcher"
+                android:background="#ffc5c5c5"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="진행상황"
+                android:id="@+id/textView9"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/abc_text_size_large_material" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="지역 대리점 별 진행상황을 확인할 수 있습니다."
+            android:id="@+id/textView22"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginBottom="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="수도권"
+            android:id="@+id/textView23"
+            android:layout_margin="5sp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="서울\n대리점"
+                android:id="@+id/button_seoul"
+                android:layout_weight="1"
+                android:layout_margin="5sp"
+                android:background="@color/material_blue_grey_800"
+                android:textColor="#ffffffff" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="경기북\n대리점"
+                android:id="@+id/button_ggn"
+                android:layout_weight="1"
+                android:layout_margin="5sp"
+                android:background="@color/material_blue_grey_800"
+                android:textColor="#ffffffff" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="경기남\n대리점"
+                android:id="@+id/button_ggs"
+                android:layout_weight="1"
+                android:layout_margin="5sp"
+                android:background="@color/material_blue_grey_800"
+                android:textColor="#ffffffff" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="중부권"
+            android:id="@+id/textView24"
+            android:layout_margin="5sp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="대전\n대리점"
+                android:id="@+id/button_dj"
+                android:layout_weight="1"
+                android:layout_margin="5sp"
+                android:background="@color/material_blue_grey_800"
+                android:textColor="#ffffffff" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="경상권"
+            android:id="@+id/textView25"
+            android:layout_margin="5sp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="경남\n대리점"
+                android:id="@+id/button_gn"
+                android:layout_weight="1"
+                android:layout_margin="5sp"
+                android:background="@color/material_blue_grey_800"
+                android:textColor="#ffffffff" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="부산\n대리점"
+                android:id="@+id/button_bs"
+                android:layout_weight="1"
+                android:layout_margin="5sp"
+                android:background="@color/material_blue_grey_800"
+                android:textColor="#ffffffff" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="경북\n대리점"
+                android:id="@+id/button_gb"
+                android:layout_weight="1"
+                android:layout_margin="5sp"
+                android:background="@color/material_blue_grey_800"
+                android:textColor="#ffffffff" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

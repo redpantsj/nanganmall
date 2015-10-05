@@ -1,0 +1,248 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#ffffffff">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="50sp"
+        android:background="#ffc4c4c4">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton8"
+            android:src="@drawable/ic_launcher"
+            android:background="#ffc5c5c5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Nangan Mall"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:textSize="@dimen/abc_text_size_large_material" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="대한민국 난간의 표준"
+            android:id="@+id/textView26"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffffff"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:background="#ffffffff"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton1"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:src="@drawable/icon_catal"
+                android:background="#ffffffff"
+                android:layout_gravity="bottom"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton2"
+                android:layout_weight="1"
+                android:src="@drawable/icon_site"
+                android:background="#ffffffff"
+                android:layout_gravity="bottom"
+                android:scaleType="fitCenter" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="0.3">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="카다로그"
+                android:id="@+id/textView"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:textSize="25dp"
+                android:textIsSelectable="false"
+                android:gravity="center"
+                android:textColor="#ff3f3f3f" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="현장보기"
+                android:id="@+id/textView2"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="#ff3f3f3f" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:background="#ffffffff"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton4"
+                android:layout_weight="1"
+                android:src="@drawable/icon_board"
+                android:background="#ffffffff"
+                android:layout_gravity="bottom"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton5"
+                android:layout_weight="1"
+                android:src="@drawable/icon_process"
+                android:background="#ffffffff"
+                android:layout_gravity="bottom"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="0.3">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="공지사항"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:textSize="25dp"
+                android:textIsSelectable="false"
+                android:gravity="center"
+                android:textColor="#ff3f3f3f" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="진행상황"
+                android:id="@+id/textView4"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:textSize="25dp"
+                android:textIsSelectable="false"
+                android:gravity="center"
+                android:textColor="#ff3f3f3f" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:background="#ffffffff"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton3"
+                android:layout_weight="1"
+                android:src="@drawable/icon_mall"
+                android:background="#ffffffff"
+                android:layout_gravity="bottom"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton6"
+                android:layout_weight="1"
+                android:src="@drawable/icon_camera"
+                android:background="#ffffffff"
+                android:layout_gravity="bottom"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_weight="0.3">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="난간몰"
+                android:id="@+id/textView5"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:textSize="25dp"
+                android:textIsSelectable="false"
+                android:gravity="center"
+                android:textColor="#ff3f3f3f" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="실측발송"
+                android:id="@+id/textView6"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:textSize="25dp"
+                android:textIsSelectable="false"
+                android:gravity="center"
+                android:textColor="#ff3f3f3f" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

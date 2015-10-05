@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bonfire4.nanganmall.Viewpicfrommap">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/sangjo">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="화면을 터치하면 현장보기로 돌아갑니다."
+            android:id="@+id/textView18"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:id="@+id/imageView3"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:id="@+id/imageView4"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:id="@+id/imageView5"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true" />
+
+    </LinearLayout>
+</RelativeLayout>
