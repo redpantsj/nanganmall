@@ -84,7 +84,7 @@ public class map extends NMapActivity
     //php 연결 및 DB값 받아오기
     private String jsonResult;
 
-    private String url = "http://redphant.godohosting.com/test.php";
+    private String url = "http://bycnt.cafe24.com/test.php";
 
     private String[] mtitle;
     private String[] maddress;
@@ -400,9 +400,9 @@ public class map extends NMapActivity
                     Log.i("OnClick", "Callpic");
 
                     Intent intent = new Intent(map.this, Viewpicfrommap.class);
-                    intent.putExtra("PIC","http://redphant.godohosting.com/wp-content/uploads/nanganmall/formap/"+mpicture[item.getId()]);
-                    intent.putExtra("PIC_1","http://redphant.godohosting.com/wp-content/uploads/nanganmall/formap/"+mpicture_1[item.getId()]);
-                    intent.putExtra("PIC_2","http://redphant.godohosting.com/wp-content/uploads/nanganmall/formap/"+mpicture_2[item.getId()]);
+                    intent.putExtra("PIC","http://bycnt.cafe24.com/wp/wp-content/uploads/nanganmall/formap/"+mpicture[item.getId()]);
+                    intent.putExtra("PIC_1","http://bycnt.cafe24.com/wp/wp-content/uploads/nanganmall/formap/"+mpicture_1[item.getId()]);
+                    intent.putExtra("PIC_2","http://bycnt.cafe24.com/wp/wp-content/uploads/nanganmall/formap/"+mpicture_2[item.getId()]);
 
                     startActivity(intent);
 
